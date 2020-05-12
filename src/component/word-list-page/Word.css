@@ -1,0 +1,82 @@
+
+.word-list-item li * {
+    float: left;
+}
+.word-list-item li {
+    clear:both;
+    list-style:none;
+}
+
+.word-list-item button:hover {
+    color: var(--font-hover-color);
+}
+
+
+.word-list-item input[type="text"]:focus {
+    color: var(--font-hover-color);
+}
+
+/* Task list */
+.word-list-item {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--bg-color);
+}
+.word-list-item > input[type="checkbox"] {
+    margin: 0 10px;
+    height: 20px;
+    width: 20px;
+    vertical-align:middle;
+}
+.word-list-item > label {
+    font-size: 18px;
+    line-height: 40px;
+    /*width: 30%;*/
+    padding: 0 0 0 11px;
+    display: inline-block;
+    text-align: left;
+    color: var(--font-color);
+    margin: 0 2px;
+}
+
+.word-list-item .name-label{
+    width: 20%;
+}
+
+.word-list-item .definition-label{
+    width: 40%;
+}
+
+.word-list-item >  input[type="text"] {
+    display: inline-block;
+    /*width: calc(30% - 10px);*/
+    margin: 0 2px;
+}
+
+.word-list-item .name-input{
+    width: calc(20% - 10px);
+}
+
+.word-list-item .definition-input{
+    width: calc(40% - 10px);
+}
+
+/* Edit Task */
+.word-list-item input[type=text] {
+    display:none;
+    color: var(--font-color);
+}
+
+.editable input[type=text] {
+    display:inline;
+}
+
+.editable label {
+    display:none;
+}
+
+/* Completed */
+.word-list-item .completed {
+    text-decoration: line-through;
+    color: var(--font-color);
+}

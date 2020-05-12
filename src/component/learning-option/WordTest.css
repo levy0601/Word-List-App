@@ -1,0 +1,45 @@
+.word-test{
+    width: 80%;
+    margin: 5px auto;
+}
+
+.option{
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+}
+
+.word-test .word{
+    margin: 0;
+    padding-top: 31.333px;
+    padding-bottom: 42px;
+    font-size: 25px;
+}
+
+.word-test .word-test-title {
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid var(--font-color);
+    padding: 10px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+.word-test-message{
+    margin: 5px 0;
+    height: 18.667px;
+}
+
+.word-test-message.correct{
+    color: white;
+    background: green;
+}
+
+.word-test-message.wrong{
+    color: white;
+    background: var(--error-color);
+}
+
+

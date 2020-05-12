@@ -1,0 +1,30 @@
+.nav{
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+.nav .back, .nav .logout{
+    float: right;
+    margin: 5px;
+    vertical-align: auto ;
+}
+
+.nav .error-message{
+    display: inline-block;
+    color: var(--error-color);
+    margin: 6px 0;
+}
+
+.nav .theme-setter {
+    float: left;
+    margin: 10px 5px;
+}
+
+
+.error-message{
+    width: 50%;
+}
+
+.theme-setter{
+    width: 128px;
+}

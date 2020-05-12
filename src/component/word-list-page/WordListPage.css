@@ -1,0 +1,14 @@
+.word-list-page{
+    margin: 10px auto;
+}
+
+.learn-option{
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.learn-option .button{
+    display: inline-block;
+    margin:  10px 50px;
+}

@@ -1,0 +1,106 @@
+
+
+.word-list {
+    display: block;
+    width: 80%;
+    margin: 0 auto 100px;
+    font-family: Lato, sans-serif;
+}
+
+.word-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.word-list .add:hover {
+    color: var(--validity-color);
+}
+
+.word-list input, .word-list button {
+    outline: none;
+}
+
+.word-list button {
+    background: none;
+    border: 0;
+    color: var(--font-color);
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+h3,.new-word {
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid var(--font-color);
+    padding: 10px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.text-input {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid var(--font-color);
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    background: var(--bg-color);
+}
+
+/* New Task */
+.new-word {
+    display: block;
+    margin: 0 0 20px;
+}
+.new-word-name-input{
+    width: 20%;
+}
+
+.new-definition-input{
+    width: 40%;
+}
+
+.word-list .list-filter span {
+    display: inline-block;
+    background: none;
+    border: 0;
+    color: var(--font-color);
+    font-size: 15px;
+    margin: 0 5px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+.word-list select{
+    display: inline-block;
+    background: var(--bg-color) none;
+    border: 0;
+    color: var(--font-color);
+    font-size: 15px;
+    margin: 0 5px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+.add-item .text-input{
+    margin: 0 5px;
+}
+
+.word-list .delete:hover {
+    color: var(--error-color);
+}
+
+.list-management{
+    overflow: hidden;
+}
+.word-list .button{
+    float: right;
+    margin: 5px;
+    width: auto;
+}

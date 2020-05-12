@@ -1,0 +1,53 @@
+.homepage{
+    width: 80%;
+    margin: 20px auto 100px;
+}
+
+.homepage .user{
+    color: var(--font-color);
+}
+
+.homepage .homepage-description{
+    position: relative;
+    overflow: hidden;
+}
+
+.homepage-description .button{
+    float: right;
+    margin: 5px;
+}
+
+.home-page-add-list{
+    margin: 20px;
+}
+
+.home-page-add-list button {
+    background: none;
+    border: 0;
+    color: var(--font-color);
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+.home-page-add-list input, .home-page-add-list button {
+    outline: none;
+}
+
+.home-page-add-list span {
+    display: inline-block;
+    background: none;
+    border: 0;
+    color: var(--font-color);
+    font-size: 15px;
+    margin: 0 5px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+.home-page-add-list .text-input{
+    margin: 0 5px;
+    color: var(--font-color);
+}

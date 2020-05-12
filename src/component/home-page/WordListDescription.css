@@ -1,0 +1,37 @@
+.word-list-description{
+    background:var(--bg-color) ;
+    width: 30%;
+    margin: 10px 30px;
+    display: inline-block;
+}
+
+.word-list-description .word-list-description-wrapper:hover{
+    background: var(--primary-color);
+    margin: 0;
+}
+
+.word-list-description .word-list-description-wrapper{
+    box-shadow: 0 0 10px 0 var(--box-shadow1), 0 5px 5px 0 var(--box-shadow2);
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+.word-list-description .word-list-name{
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.111111111111111;
+    color: var(--heading-color);
+    margin: 5px;
+}
+
+.word-list-description .number-of-word{
+    font-weight: 600;
+    font-size: .75rem;
+    line-height: 1.333333333333333;
+    color: var(--font-color);
+    margin: 2px;
+}
+
+.word-list-description .button{
+    font-size: .75rem;
+}
+

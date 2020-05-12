@@ -1,0 +1,23 @@
+.flip-card-controller{
+     margin: 5px auto;
+    width: 80%;
+ }
+
+.flip-card-controller .controller{
+    margin: 20px;
+}
+
+.increment, .decrement{
+    margin: 0 5px 5px 0;
+    font-size: 15px;
+}
+
+.flip-card-title {
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid var(--font-color);
+    padding: 10px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
